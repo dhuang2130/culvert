@@ -28,3 +28,4 @@ Desktop.ini
 *.bak
 *.swp
 *.swo
+.env
