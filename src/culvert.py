@@ -69,4 +69,5 @@ async def gpq_graph(ctx):
         await ctx.send(f"{user.mention}, you haven't submitted any GPQ scores yet.")
 
 # Replace 'YOUR_BOT_TOKEN' with your bot's token
-bot.run('MTI1MjM3MjI0MDA1ODU1MjM4Mg.GC3RkD.Mf8J63PnaVAuaf3Cc7xeYPfsswoUWPNecHFIhs')
+bot_token = os.getenv('MTI1MjM3MjI0MDA1ODU1MjM4Mg.GC3RkD.Mf8J63PnaVAuaf3Cc7xeYPfsswoUWPNecHFIhs')
+bot.run(bot_token)
